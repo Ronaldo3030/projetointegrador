@@ -1,0 +1,106 @@
+:root{
+    --gray: #c4c4c4;
+    --white: #fff;
+    --dark-blue: #322a54;
+    --btn-green: #a6ce39;
+    --btn-blue: #0f7491;
+    --btn-pink: #ed217c;
+    --btn-orange: #f15a29;
+    --btn-purple: #753874;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dark-body{
+    background-color: #3E3E3E !important;
+    transition: all .3s ease-in-out;
+}
+.dark-cabecalho{
+    background-color: #252625 !important;
+    transition: all .3s ease-in-out;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--dark-blue);
+    padding: 75px 0;
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+    background-color: var(--gray);
+    height: 100%;
+    padding: 15px 100px;
+    transition: background-color .3s ease-in-out;
+    overflow-y: auto;
+}
+
+.container-btn{
+    background-color: var(--white);
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-around;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.1);
+}
+.btn button{
+    border: none;
+    padding: 8px 0;
+    width: 110px;
+    color: var(--white);
+    border-radius: 3px;
+    box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform .3s ease-in-out;
+}
+.btn button:hover{
+    transform: scale(1.05);
+}
+
+.moradia{
+    background-color: var(--btn-green);
+}
+.alimentacao{
+    background-color: var(--btn-blue);
+}
+.transporte{
+    background-color: var(--btn-pink);
+}
+.consumo{
+    background-color: var(--btn-orange);
+}
+.residuos{
+    background-color: var(--btn-purple);
+}
+
+.content{
+    background-color: #fff;
+    height: 82%;
+    box-shadow: 0px 4px 5px 1px rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+.dark-mode{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+.btn-mode{
+    border: none;
+    background-color: transparent;
+    color: var(--white);
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.d-none{
+    display: none;
+}
+.fa-moon{
+    color: var(--gray);
+}

@@ -1,0 +1,19 @@
+@media(max-width:850px) {
+    .container-btn{
+        display: block;
+        padding: 1px 10px;
+    }
+    .btn{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .btn button{
+        width: 100%;
+    }
+}
+
+@media(max-width:450px) {
+    .container{
+        padding: 15px 25px;
+    }
+}
